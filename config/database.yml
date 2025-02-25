@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
-  database: assignment-docker-and-rails_production
-  username: assignment-docker-and-rails
-  password: <%= ENV['ASSIGNMENT-DOCKER-AND-RAILS_DATABASE_PASSWORD'] %>
+  # database: assignment-docker-and-rails_production
+  # username: assignment-docker-and-rails
+  # password: <%= ENV['ASSIGNMENT-DOCKER-AND-RAILS_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
