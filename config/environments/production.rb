@@ -119,7 +119,7 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   # Heroku のホスト名を許可リストに追加
-  config.hosts << "assignment-docker-and-rails-8bc69807b9b3.herokuapp.com"
+  config.hosts << "assignment-docker-and-rails-7b0343ca7862.herokuapp.com"
   # 必要に応じて、デフォルトの URL オプションも設定
   config.action_controller.default_url_options = { host: "assignment_docker_and_rails.herokuapp.com" }
 end
